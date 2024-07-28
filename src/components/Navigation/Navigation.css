@@ -1,0 +1,27 @@
+.nav-list-item {
+   text-align: left;
+    color: var(--secondary-text-color);
+    text-decoration: none; 
+    margin-left: 1.5em;
+}
+.nav-list-item:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+.box-nav {
+    padding: 10px; 
+    display: flex; 
+    flex-direction: row; 
+    height: 2vh; 
+    width: 90%;
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end;
+}
+.info-sec{
+min-height: 60vh;
+width: 100%;
+display: flex;
+justify-content: center;
+}

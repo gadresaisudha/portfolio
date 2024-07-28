@@ -1,0 +1,67 @@
+.maininfo{
+    display: flex;
+    flex:3;
+    max-width: 800px; 
+    margin: 0 auto; 
+    min-height: 60vh;
+    width: 100%;
+    opacity: 0; 
+    transform:translateY(20px); 
+    animation:  fadeInSlideUp 1s forwards;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+  @keyframes fadeInSlideUp{
+    to {
+        opacity: 1; /* Final state for fade-in effect */
+        transform: translateY(0); ; /* Final state for slight scaling */
+    }
+}
+
+
+
+.maininfo h1 {
+  font-size: 40px; /* Larger font size for headings */
+  transition: text-shadow 0.3s ease; /* Smooth transition for text shadow effect */
+ padding-bottom: 1em;
+ text-align: center;
+ color: var(--secondary-text-color); 
+ margin: 0;
+ padding-top: 1.5em;
+
+}
+.maininfo h2{
+  font-size: 25px; /* Larger font size for headings */
+  transition: text-shadow 0.3s ease; /* Smooth transition for text shadow effect */
+ padding-bottom: 1em;
+ text-align: center;
+ color: var(--secondary-text-color); 
+ margin: 0;
+}
+
+.maininfo p {
+  margin: 10px 0; /* Margin for paragraphs */
+  transition: text-shadow 0.3s ease; /* Smooth transition for text shadow effect */
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 16.5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a{
+  color: inherit;
+}
+.icon{
+  font-size: 30px;
+  gap:15px;
+  display: flex;
+  color: var(--secondary-text-color); 
+}
+.btn-info{
+  margin-top: 1.5em;
+}

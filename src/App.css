@@ -1,0 +1,82 @@
+:root {
+  --background-color: #ffffff; /* White */
+  --box-background-color: #f8f9fa; /* Very Light Gray */
+  --primary-text-color: #212529; /* Dark Gray (almost black) */
+  --secondary-text-color: #2978b5; /* Medium Dark Gray */
+  --accent-color: #007bff; /* Blue for accent */
+  --border-color: #dee2e6; /* Light Gray for borders */
+  
+
+}
+
+.App {
+  background-color: var(--background-color);
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  min-height: 100vh; 
+  justify-content: space-evenly;
+  --ff-poppins: 'Poppins', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.footer{
+  font-size: 15px; 
+  display: flex;
+  justify-content: center;
+  color: var( --secondary-text-color);
+}
+.box-main {
+  background-color:var(--box-background-color); 
+  border: 1px solid var(--box-border-color); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  display: flex; 
+  min-height: 80vh; 
+  width: auto;
+  margin: 3.5em;
+  flex-direction: column;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: transform 0.4s ease-in-out;
+  text-decoration: none;
+  
+}
+
+.btn--outline {
+  color: var(--secondary-text-color);
+  border: 2px solid var(--secondary-text-color);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.btn--outline:hover,
+.btn--outline:focus {
+  color: var(--box-background-color);
+}
+
+.btn--outline:before {
+  content: '';
+  position: absolute;
+  background-color: var(--secondary-text-color);
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: right 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.btn--outline:hover:before,
+.btn--outline:focus:before {
+  right: 0;
+}

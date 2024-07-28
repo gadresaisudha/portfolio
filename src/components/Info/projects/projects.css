@@ -1,0 +1,82 @@
+.projects-list-item {
+    border: 1px solid var(--box-border-color); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.187); 
+    display: flex; 
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+    color: var(--secondary-text-color); 
+    font-size: 14px; 
+    font-style: 'Poppins', sans-serif;
+    text-decoration: none;
+    flex-direction: column;
+    width: 32vh; 
+    height: 35vh;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 16px;
+    padding: 1.5em;
+  }
+  .projects-list {
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+  }
+  .project-title{
+    padding-bottom: 1.5em;
+    margin-bottom: 10px;
+    justify-content: center; /* Center the title horizontally */
+    display: flex;
+    font-size: 24px; /* Larger font size for section titles */
+  }
+  .projects-list-item:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-color: #4a148c; 
+  }
+  
+  
+.projects-list-item h1 {
+  font-size: 19px; /* Larger font size for headings */
+ padding-bottom: 1em;
+ text-align: center;
+ color: var(--secondary-text-color); 
+ margin: 0;
+ padding-top: 2em;
+
+}
+.stack{
+ padding-bottom: 1em;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.projects-list-item h6{
+  font-size: 14px; 
+ padding-right: 0.5em;
+ text-align: center;
+ color: var(--secondary-text-color); 
+ margin: 0;
+}
+
+.projects-list-item p {
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--primary-text-color); 
+  margin: 0;
+}
+
+.pro-icon{
+  font-size: 30px;
+  gap:15px;
+  display: flex;
+  justify-content: center;
+}
