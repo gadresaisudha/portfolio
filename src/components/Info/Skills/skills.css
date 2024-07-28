@@ -43,14 +43,7 @@
     padding: 1.2em;
   }
 
- .certification-list-item h1{
-  margin: 0;
-  padding-top: 1.5em;
- }  
- .certification-list-item p{
-  margin: 0;
-  padding-top: 1.5em;
- }  
+
   .skills-list-item:hover,.certification-list-item:hover{
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
@@ -70,8 +63,12 @@
 .certification-list-item p {
   font-size: 16px;
   color: var(--primary-text-color); 
+  margin: 0;
+  padding-top: 1.5em;
 }
 
 .certification-list-item h1 {
   font-size: 19px;
+  margin: 0;
+  padding-top: 1.5em;
 }
