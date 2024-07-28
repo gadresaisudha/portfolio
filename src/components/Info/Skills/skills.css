@@ -40,7 +40,7 @@
     height: 18vh;
     flex-wrap: wrap;
     text-align: center;
-    padding: 1.5em;
+    padding: 1.2em;
   }
   .skills-list-item:hover,.certification-list-item:hover{
     transform: translateY(-5px); 
