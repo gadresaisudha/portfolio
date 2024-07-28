@@ -30,7 +30,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.187); 
     display: flex; 
     justify-content: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.8em;
     color: var(--secondary-text-color); 
     font-size: 14px; 
     font-style: 'Poppins', sans-serif;
@@ -42,6 +42,15 @@
     text-align: center;
     padding: 1.2em;
   }
+
+ .certification-list-item h1{
+  margin: 0;
+  padding-top: 1.5em;
+ }  
+ .certification-list-item p{
+  margin: 0;
+  padding-top: 1.5em;
+ }  
   .skills-list-item:hover,.certification-list-item:hover{
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
