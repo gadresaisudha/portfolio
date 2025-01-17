@@ -5,12 +5,12 @@ const contact = {
     phone : '+1(727)-554-6208',
     linkedIn : 'https://www.linkedin.com/in/gadresaisudha/',
     Github : 'https://github.com/gadresaisudha',
-    resume : 'https://docs.google.com/document/d/1YALGp5C3uTG8VNwq-jftlsi6j1ChdrGgKPtB3BvJMwE/edit?usp=sharing'
+    resume : 'https://drive.google.com/file/d/1th0x-tABMlLFnrxkbLE7NmeuhXX2K3t5/view?usp=sharing'
 }
 
 const skills = [
     'HTML',
-    'CSS', 
+    'CSS',
     'Javascript',
     'React',
     'Angular',
@@ -31,7 +31,7 @@ const skills = [
     'Git',
     'Jenkins',
     'Docker',
-    'Kubernetes', 
+    'Kubernetes',
     'Bitbucket'
 ]
 const certficates = [
@@ -83,7 +83,7 @@ const projects = [
         stack: [ 'Pytorch','Python','Tensorflow'],
         sourceCode: 'https://github.com/saisameer010/GAN-upscaler',
         livePreview: 'https://github.com/saisameer010/GAN-upscaler',
-    
+
       },
 ]
 export {contact, skills, projects,certficates};
