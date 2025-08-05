@@ -5,7 +5,7 @@ const contact = {
     phone : '+1(727)-554-6208',
     linkedIn : 'https://www.linkedin.com/in/gadresaisudha/',
     Github : 'https://github.com/gadresaisudha',
-    resume : 'https://drive.google.com/file/d/1th0x-tABMlLFnrxkbLE7NmeuhXX2K3t5/view?usp=sharing'
+    resume : 'https://drive.google.com/file/d/1R0Gynr6bz7NGaPU4YVRdrC4l-F2B2QEm/view'
 }
 
 const skills = [
